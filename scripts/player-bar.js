@@ -1,10 +1,6 @@
 {
   $('button#play-pause').on('click', function() {
-<<<<<<< HEAD
-  player.playPause();
-=======
   helper.playPauseAndUpdate();
->>>>>>> checkpoint-sliders2
   $(this).attr('playState', player.playState);
   });
 
